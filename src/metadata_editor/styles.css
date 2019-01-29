@@ -1,0 +1,60 @@
+.addFieldButtons {
+    right: 0;
+}
+
+.addMetadataField {
+    width: fit-content;
+    height: fit-content;
+    position: sticky;
+    background-color: #ffffff;
+    border: 2px #D7182F solid;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.fieldName {
+    cursor: pointer;
+}
+
+.keyLabel {
+    color: #d7182f;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.nestedProperty {
+    border-left: #D7182F 1px solid;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.metadataWrapper {
+    border: 1px #D7182F dashed;
+    padding: 10px;
+    margin: 20px;
+    max-height: 600px;
+    max-width: 600px;
+    overflow: auto;
+}
+
+.metadataWrapper button {
+    bottom: 0;
+    margin-top: 10px;
+}
+
+.metadataWrapper label p {
+    /*display: inline-block;*/
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+}
+
+.metadataWrapper label input {
+    /*display: inline-block;*/
+    /*margin-left: 10px;*/
+}
+
+.textFieldWrapper {
+
+}
