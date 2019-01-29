@@ -1,0 +1,17 @@
+{
+  "name": "dynamic-json-react",
+  "version": "1.0.0",
+  "description": "A dynamic JSON editor in React; add and remove any properties from a JSON object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "intrepidOlivia",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "react": "^16.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.0"
+  }
+}
