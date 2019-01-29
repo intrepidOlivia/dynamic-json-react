@@ -4,14 +4,17 @@
   "description": "A dynamic JSON editor in React; add and remove any properties from a JSON object",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "demo": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "intrepidOlivia",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "react": "^16.7.0"
+    "react": "16.7.0"
   },
   "devDependencies": {
-    "webpack": "^4.29.0"
+    "webpack": "4.29.0",
+    "webpack-dev-server": "3.1.14"
   }
 }
